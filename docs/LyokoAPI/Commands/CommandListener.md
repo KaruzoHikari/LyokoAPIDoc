@@ -1,10 +1,10 @@
 # CommandListener
 The CommandListener class is a special LAPIListener class.
-It's designed for use with [ICommand](ICommand.md)s.
+It's designed for use with [ICommands](ICommand.md).
 
 # Instatiating
 To make a new CommandListener, simply extend it,
-and assign the Prefix:
+and assign the prefix:
 ```csharp
 public class MyCommandListener : CommandListener
 {
@@ -39,7 +39,7 @@ public class MyPlugin : LyokoAPIPlugin
     private MyCommandListener commandListener = new MyCommandListener();
     protected override bool OnEnable()
     {
-        commandListener.StartListening()
+        commandListener.StartListening();
     }
     protected override bool OnDisable()
     {
@@ -48,5 +48,5 @@ public class MyPlugin : LyokoAPIPlugin
     //...
 }
 ```
-**Don't forget about the [Rules](LyokoPlugin/introduction.md)**
+**Don't forget about the [Rules](LyokoPlugin/introduction.md).**
 
