@@ -1,6 +1,6 @@
 # LAPI Exception
 
-The abstract LapiException class is class that extends Exception.
+The abstract LAPIException class is class that extends Exception.
 It simply serves to identify LAPI-specific exceptions. 
 
 ## Resolve()
