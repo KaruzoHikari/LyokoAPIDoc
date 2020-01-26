@@ -1,10 +1,10 @@
-#APISector
+# APISector
 This class implements [ISector](./Interfaces/ISector.md)
 
-##Properties
+# Properties
 Identical to [ISector](./Interfaces/ISector.md)
 
-##Constructors
+# Constructors
 This class has two constructors:
 
 ```csharp
@@ -25,3 +25,9 @@ You can also use a string for the VirtualWorld:
 APISector(string virtualworldname, string sectorname, int towers = 0);
 ```
 This constructor will do the same thing as the one above, except it will create a new [IVirtualWorld](./Interfaces/IVirtualWorld.md)
+
+# Methods
+## [GetLocationName()](../RealWorld/Location/Abstract/ILocation.md#GetLocationName())
+For the Sector ``Lyoko Ice``: ``"Lyoko : Ice"``
+## [GetInnerLocation](../RealWorld/Location/Abstract/ILocation.md#GetInnerLocation())
+Returns itself.

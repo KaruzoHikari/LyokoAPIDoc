@@ -1,13 +1,13 @@
-#APITower
+# APITower
 This class is an implementation of [ITower](./Interfaces/ITower.md)
 
-##Properties
+# Properties
 Identical to [ITower](./Interfaces/ITower.md)
 with the following differences:
   + Activator has a public setter
   + Activated returns true if the Activator isn't NONE
 
-##Constructors
+# Constructors
 This class has two constructors:
 ```csharp
 APITower(int number, ISector sector);
@@ -30,3 +30,9 @@ An object is equal to 'this' APITower if these conditions are all true:<br>
     <li>It's ISector has the same name</li>
     <li>It's IVirtualWorld has the same name</li>
   <ul>
+
+# Methods
+## [GetLocationName()](../RealWorld/Location/Abstract/ILocation.md#GetLocationName())
+For the tower ``Lyoko Ice 1``: ``"Lyoko : Ice,Tower 1"``
+## [GetInnerLocation](../RealWorld/Location/Abstract/ILocation.md#GetInnerLocation())
+Returns itself.

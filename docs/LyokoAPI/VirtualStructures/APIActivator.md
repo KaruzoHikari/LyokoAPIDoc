@@ -1,17 +1,17 @@
-#APIActivator
+# APIActivator
 A person or entity that can activate an [ITower](./Interfaces/ITower.md)
 
-##Values
+# Values
 XANA, JEREMIE, HOPPER<br>
 NONE - the activator when the ITower is inactive.
 
-##Parsing
+# Parsing
 If you want to parse a string to an Activator,<br>
 you can use LyokoParser.
 
 The methods below can also be applied to a specific activator, like ``APIActivator.XANA.Parse()``, although that's pretty silly to do.
 
-###ParseActivator
+## ParseActivator
 Accepts a string, returns an APIActivator. <br>
 Throws a FormatException if the string is invalid.
 ```csharp
@@ -23,7 +23,7 @@ try{
 }
 ```
 
-###TryParseActivator
+## TryParseActivator
 Accepts a string, returns a boolean if it's a valid Activator.<br>
 If true, stores it in a given variable.
 ```csharp

@@ -1,7 +1,7 @@
-#IVirtualWorld
+# IVirtualWorld
 An interface representing a VirtualWorld
 
-##Properties
+# Properties
 *Hint: All of these are read-only*
   <ul>
   <li> Name - the name of this IVirtualWorld.</li>

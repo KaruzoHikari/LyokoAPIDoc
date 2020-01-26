@@ -1,7 +1,8 @@
-#ITower
+# ITower
 An interface representing a Tower on a VirtualWorld
+It also implements [ILocation](../../RealWorld/Location/Abstract/ILocation.md)
 
-##Properties
+# Properties
   + Number - the number of the ITower.
   + Activated - whether or not the ITower is activated. Preferably this is `!= APIActivator.NONE`<br>  
   + Sector - the [ISector](./ISector.md) this ITower is a member of.<br>
